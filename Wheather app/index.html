@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="phone-cover">
+            <div class="weather-search">
+                <input type="text" id="city" autocomplete="off">
+                <button id="search"> <i class='bx bx-search'></i></button>
+            </div>
+            <div class="weather-body">
+                <h1 id="other">Location</h1>
+                <p id="date">Date</p>
+                <div class="weather-picture">
+                    <img id="images" src="./Images/Sun.png" alt="">
+                </div>
+                <div class="weather-display">
+                    <h3 id="pagoda">0</h3>
+                </div>
+            </div>
+            <div class="weather-footer">
+                <div class="weather-info">
+                    <div class="box">
+                        <p>Temp</p>
+                        <h5 id="pagoda2" >0</h5>
+                    </div>
+                    <div class="box">
+                        <p >Humidy</p>
+                        <h5 id="humidy">0%</h5>
+                    </div>
+                    <div class="box">
+                        <p> Wind</p>
+                        <h5 id="wind">0 km/h</h5>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Day</p>
+                    <p>Night</p>
+                </div>
+                <div class="weather-future">
+                    <div class="box">
+                        <div class="box-img">
+                            <img  src="./Images/Sun.png" alt="">
+                        </div>
+                        <div class="box-text">
+                            <p>12:00</p>
+                            <p id="day">0c</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <img  src="./Images/Group 39.png" alt="">
+                        </div>
+                        <div class="box-text">
+                            <p>21:00</p>
+                            <p id="night">0c</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chouse" id="chouse">
+            <div class="oups">
+                <img  src="./Images/Cloud.png" alt="#">
+            </div>
+            <div class="text">
+                <h1>Chouse Country</h1>
+                <h1><i>First</i></h1>
+            </div>
+        </div>
+        <div class="error" id="error">
+            <div class="error-img">
+                <img src="./Images/Lightning.png" alt="#">
+            </div>
+            <div class="error-text">
+                <h1>Error</h1>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
