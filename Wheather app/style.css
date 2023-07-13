@@ -268,4 +268,7 @@
         width: 100% !important; 
         height: 100vh !important;
     }
+    .chouse , .error{
+        top:130px;
+    }
 }
